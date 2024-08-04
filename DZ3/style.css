@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url(./fonts/gilroy-bold.ttf);
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url(./fonts/gilroy-medium.ttf);
+}
+
+@font-face {
+  font-family: "Gilroy-Semibold";
+  src: url(./fonts/gilroy-semibold.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  scroll-behavior: smooth;
+  background: #FFFFFF;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 40px 0;
+  margin-bottom: 84px;
+}
+
+.header .header__logo {}
+
+.header .header__menu {}
+
+.header .header__menu a {
+  font-family: "Gilroy-Medium";
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+}
+
+.main {
+  margin-bottom: 162px;
+}
+
+.main .mainContent {}
+
+.main .mainContent h1 {
+  color: rgb(0, 0, 0);
+  font-family: "Gilroy-Bold";
+  font-size: 60px;
+  margin-bottom: 17px;
+}
+
+.main .mainContent p {
+  color: rgb(136, 136, 136);
+  font-family: "Gilroy-Medium";
+  font-size: 20px;
+  margin-bottom: 37px;
+}
+
+.main .mainContent button {
+  padding: 15px 35px;
+}
+
+.main .mainContent .main__btn_1 {
+  border-radius: 50px;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  background: rgb(242, 88, 34);
+  color: rgb(255, 255, 255);
+  font-family: "Gilroy-Bold";
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+main .mainContent .main__btn_2 {
+  background: none;
+  color: rgb(170, 170, 170);
+  font-family: "Gilroy-Bold";
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  padding: 96px 0;
+}
+
+.footer .logos {}
