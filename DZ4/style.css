@@ -39,9 +39,17 @@ img {
   margin-bottom: 84px;
 }
 
-.header .headerLogo {}
+.header .headerLogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-.header .headerLogo .header__menu {}
+.header .headerLogo .header__menu {
+  width: 533px;
+  display: flex;
+  justify-content: space-between;
+}
 
 .header .headerLogo .header__menu a {
   font-family: "Gilroy-Medium";
@@ -53,7 +61,11 @@ img {
   margin-bottom: 162px;
 }
 
-.main .mainContent {}
+.main .mainContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .main .mainContent h1 {
   color: rgb(0, 0, 0);
@@ -67,6 +79,12 @@ img {
   font-family: "Gilroy-Medium";
   font-size: 20px;
   margin-bottom: 37px;
+  max-width: 466px;
+}
+
+.main .mainContent .mainContent__button {
+  display: flex;
+  gap: 37px;
 }
 
 .main .mainContent button {
@@ -97,4 +115,7 @@ main .mainContent .main__btn_2 {
   padding: 96px 0;
 }
 
-.footer .logos {}
+.footer .logos {
+  display: flex;
+  justify-content: space-between;
+}
