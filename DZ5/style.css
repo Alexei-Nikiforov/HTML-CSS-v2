@@ -1,0 +1,263 @@
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url(./fonts/gilroy-bold.ttf);
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url(./fonts/gilroy-medium.ttf);
+}
+
+@font-face {
+  font-family: "Gilroy-Semibold";
+  src: url(./fonts/gilroy-semibold.ttf);
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url(./fonts/gilroy-regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  scroll-behavior: smooth;
+  background: #FFFFFF;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 40px 0;
+  margin-bottom: 84px;
+}
+
+.header .headerLogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .headerLogo .header__menu {
+  width: 533px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .headerLogo .header__menu a {
+  font-family: "Gilroy-Medium";
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+}
+
+.main {}
+
+.main .mainContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 162px;
+}
+
+.main .mainContent h1 {
+  color: rgb(0, 0, 0);
+  font-family: "Gilroy-Bold";
+  font-size: 60px;
+  margin-bottom: 17px;
+}
+
+.main .mainContent p {
+  color: rgb(136, 136, 136);
+  font-family: "Gilroy-Medium";
+  font-size: 20px;
+  margin-bottom: 37px;
+  max-width: 466px;
+}
+
+.main .mainContent .mainContent__button {
+  display: flex;
+  gap: 37px;
+}
+
+.main .mainContent button {
+  padding: 15px 35px;
+}
+
+.main .mainContent .main__btn_1 {
+  border-radius: 50px;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  background: rgb(242, 88, 34);
+  color: rgb(255, 255, 255);
+  font-family: "Gilroy-Bold";
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+main .mainContent .main__btn_2 {
+  background: none;
+  color: rgb(170, 170, 170);
+  font-family: "Gilroy-Bold";
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.main .logos {
+  display: flex;
+  justify-content: space-between;
+  padding: 96px 0;
+}
+
+.main .features {
+  display: flex;
+  gap: 60px;
+  padding: 100px 0;
+}
+
+.main .features .cards {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px 30px 25px 30px;
+}
+
+.main .features .cards img {
+  margin-bottom: 25px;
+}
+
+.main .features .cards h2 {
+  color: rgb(0, 0, 0);
+  font-family: "Gilroy-Bold";
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 17px;
+}
+
+.main .features .cards p {
+  color: rgb(102, 102, 102);
+  font-family: "Gilroy-Regular";
+  font-size: 15px;
+  line-height: 150%;
+  margin-bottom: 25px;
+}
+
+.main .features .cards button {
+  background: #FFFFFF;
+}
+
+.main .features .cards .btn {
+  color: rgb(0, 0, 0);
+  font-family: "Gilroy-Bold";
+  font-size: 11px;
+  line-height: 150%;
+  border: none;
+  cursor: pointer;
+}
+
+.main .features .cards_center {
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+}
+
+.main .services {
+  background: rgb(250, 250, 250);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 54px;
+  max-width: none;
+}
+
+.main .services .services__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+main .services .services__title h1 {
+  color: rgb(0, 0, 0);
+  font-family: "Gilroy-Bold";
+  font-size: 45px;
+  padding-top: 92px;
+}
+
+.main .services .services__title p {
+  color: rgb(102, 102, 102);
+  font-family: "Gilroy-Regular";
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  max-width: 682px;
+}
+
+.main .services .services__cards {
+  display: flex;
+  max-width: 1170px;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+.main .services .services__cards .card {
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main .services .services__cards .containers {
+  box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.main .services .services__cards .card img {
+  margin-bottom: 25px;
+}
+
+.main .services .services__cards .card h1 {
+  color: rgb(0, 0, 0);
+  font-family: "Gilroy-Bold";
+  font-size: 24px;
+  margin-bottom: 22px;
+}
+
+main .services .services__cards .card p {
+  color: rgb(170, 170, 170);
+  font-family: "Gilroy-Regular";
+  font-size: 15px;
+  line-height: 150%;
+  text-align: center;
+  padding: 0 30px;
+  margin-bottom: 39px;
+}
+
+main .services .services__cards .card button {
+  border-radius: 50px;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  background: rgb(242, 88, 34);
+  margin-bottom: 50px;
+}
+
+main .services .services__cards .card .btn {
+  color: rgb(255, 255, 255);
+  font-family: "Gilroy-Bold";
+  font-size: 13px;
+  line-height: 150%;
+  border: none;
+  cursor: pointer;
+  padding: 15px 40px;
+}
+
+.footer {}
