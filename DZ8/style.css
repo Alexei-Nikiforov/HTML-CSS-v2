@@ -116,7 +116,6 @@ header .header__menus {
 .main .banner {
   display: flex;
   align-items: center;
-  /* justify-content: center; */
   gap: 64px;
   background: rgb(241, 228, 230);
   margin-bottom: 65px;
@@ -336,6 +335,105 @@ header .header__menus {
 
   .products .products__cards {
     gap: 16px;
+  }
+
+  /* .products .products__button button {
+    background: rgb(241, 109, 127);
+  }
+  
+  .products .products__button .btn {
+    color: rgb(255, 255, 255);
+  } */
+
+  .products .products__button button {
+    margin-bottom: 65px;
+  }
+
+}
+
+@media(min-width: 320px) and (max-width: 767px) {
+
+  .container {
+    max-width: 96%;
+  }
+
+  h1 {
+    font-size: 38px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .header {
+    gap: 40%;
+  }
+
+  .header .header__menus .header__user {
+    display: none;
+  }
+
+  .header .header__menus .header__basket {
+    display: none;
+  }
+
+  .main .banner {
+    width: 100%;
+    min-height: 363px;
+    justify-content: center;
+  }
+
+  .main .banner .banner__image {
+    display: none;
+  }
+
+  .main .banner .banner__text {
+    gap: 15px;
+  }
+
+  .offers {
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 64px;
+  }
+
+  .offers .offer {
+    width: 343px;
+    height: 247px;
+  }
+
+  .offers .offer__1,
+  .offers .offer__2,
+  .offers .offer__3 {
+    background-size: 343px 247px;
+  }
+
+  .offers .offer .text {
+    width: 154px;
+    height: 50px;
+    padding: 98px 94px;
+  }
+
+  .offers .offer__4 {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .offers .offer__4 .fon__4 {
+    width: 343px;
+    height: 111px;
+  }
+
+  .offers .offer__4 .fon__4 .text__4 {
+    padding: 30px 92px;
+  }
+
+  .products .products__title {
+    margin-bottom: 64px;
+  }
+
+  .products .products__title h5 {
+    margin-bottom: 3px;
   }
 
 }
